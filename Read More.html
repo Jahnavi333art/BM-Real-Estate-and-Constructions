@@ -9,6 +9,9 @@
       padding: 0;
       box-sizing: border-box;
     }
+* {
+  box-sizing: border-box;
+}
  
     .container {
       display: flex;
@@ -25,6 +28,25 @@
       padding: 20px;
       background-color: #e0e0e0;
     }
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
   .menu, .main, .right {
